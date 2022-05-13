@@ -1,0 +1,18 @@
+
+#stories-title {
+ padding-bottom: 14vh;
+}
+
+#stories-title span {
+    color:#4795D1;
+}
+
+#stories-text {
+    /* border: 1px solid red; */
+    min-width: 350px;
+    font-size: 200%;
+}
+
+#stories-carousel .carousel-inner{
+    border-radius: 3px;
+}
