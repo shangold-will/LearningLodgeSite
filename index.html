@@ -5,111 +5,153 @@
 
 -->
 
-    
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Learning Lodge</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" type="text/css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css"> -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- <script src="bootstrap-5.1.3/dist/js/bootstrap.min.js"></script> -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="scrollfade/js/scrollfade-0.1.js"></script>
-        <!-- <link href="scrollfade/css/main.css" type="text/css" rel="stylesheet"> -->
-    </head>
-    <body>
-        <div class="navbar fixed-top">
-            <nav class="navbar-brand">
-                <!-- <h1 class="col-sm-1">Learning Lodge</h1> -->
-                <div class="navbar-brand btn fixed-top">
-                    <a href="index.html" id="ll_logo">
-                        <img src="images/learninglodge_logo_blue.png" class="d-inline-block align-top" alt="Learning Lodge Logo">Learning Lodge
-                    </a>
-                    <!-- <div class="btn-1"> -->
-                        <a role="button" class="btn btn-light col-sm-1" href="index.html">Home</a> <!--Source: https://stackoverflow.com/questions/36003670/how-to-put-a-link-on-a-button-with-bootstrap-->
-                        <a role="button" class="btn btn-dark col-sm-1" href="about.html">About</a>
-                        <a role="button" class="btn btn-dark col-sm-1" href="resources.html">Resources</a>
-                    <!-- </div> -->
-                    
-                </div>
-            </nav>
-        </div>
-        <!-- Landing page section -->
-        <div class="container-fluid">
-            <div class="jumbotron">
-                <h1 class="scrollFade">Free online tutoring.</h1>
-                <h2>By <span class="light_color">college</span> students, for <span class="light_color">K-8</span> students.</h2>
-                <a role="button" class="btn col-sm-1 scrollFade" id="sign_up_btn_1" href="index.html#tutor_anchor">Sign Up to Tutor!</a>
-                <!-- <img src="images/arrow_1.png" alt="image of blue curved arrow" id="tutor_arrow"> -->
-                <a role="button" class="btn col-sm-1 scrollFade" id="sign_up_btn_2" href="index.html#student_anchor">Sign Up to be Tutored!</a>
-                <!-- <img src="images/arrow_2.png" alt="image of blue curved arrow" id="student_arrow"> -->
+
+<head>
+    <title>Learning Lodge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="navbar.css" type="text/css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <script src="bootstrap-5.1.3/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="scrollfade/js/scrollfade-0.1.js"></script>
+    <!-- <link href="scrollfade/css/main.css" type="text/css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light z-index-fixed position-fixed" id="navbar-container">
+        <div class="container-fluid" id="navigation-bar">
+            <a class="navbar-brand w-25" href="index.html" id="ll_logo">
+                <img src="images/learninglodge_logo_blue.png" class="d-inline-block align-top" alt="Learning Lodge Logo">Learning Lodge
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarButtons" aria-controls="navbarButtons" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-0 w-75" id="navbarButtons">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item underline-links-same">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: #36719E;">Home</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="news.html">Partners</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="stories.html">Stories</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="guidelines.html">Guidelines</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- Map/ Number of tutors section -->
-        <div class="container-2">
-            <div class="row">
-                <div class="map_text scrollFade">
-                    <h2 id="num_tutors"><span>638</span> college volunteer tutor signups</h2>
-                    <h2 id="num_students"><span>713</span> student signups</h2>
-                    <h3 id="counting">… and counting!</h3>
-                </div>
-            </div>
-            <div class="row">
-                    <img class="scrollFade" src="images/MapChart_Map-2.png" alt="Map of where Learning Lodge tutors go to college" id="map_image">
+    </nav>
+
+
+
+
+    <!-- Landing page section -->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1 class="scrollFade">Free online tutoring.</h1>
+            <h2>By <span class="light_color">college</span> students, for <span class="light_color">K-8</span> students.
+            </h2>
+            <a role="button" class="btn col-sm-1 scrollFade" id="sign_up_btn_1" href="index.html#tutor_anchor">Sign Up
+                to Tutor!</a>
+            <!-- <img src="images/arrow_1.png" alt="image of blue curved arrow" id="tutor_arrow"> -->
+            <a role="button" class="btn col-sm-1 scrollFade" id="sign_up_btn_2" href="index.html#student_anchor">Sign Up
+                to be Tutored!</a>
+            <!-- <img src="images/arrow_2.png" alt="image of blue curved arrow" id="student_arrow"> -->
+        </div>
+    </div>
+    <!-- Map/ Number of tutors section -->
+    <div class="container-2">
+        <div class="row">
+            <div class="map_text scrollFade">
+                <h2 id="num_tutors"><span>638</span> college volunteer tutor signups</h2>
+                <h2 id="num_students"><span>713</span> student signups</h2>
+                <h3 id="counting">… and counting!</h3>
             </div>
         </div>
-        <div class="container-3">
-
+        <div class="row">
+            <img class="scrollFade" src="images/LL_Map_IMG-V.2.png"
+                alt="Map of where Learning Lodge tutors go to college" id="map_image">
         </div>
+    </div>
+    <div class="container-3">
+
+    </div>
 
 
-        <!-- Sign up/ call to action section -->
-        <div class="container-4">
-            <div class="row">
-                <a class="anchor" id="student_anchor"></a>
-                <div class="col-sm-7 scrollFade" id="student_section">
-                    <h1>Students</h1>
-                    <p>Welcome!<p>
-                    <p>If you are the parent of a elementary or middle school student (Grades K-8) in need of tutoring in Math, Science, English, Social Sciences, or Foreign Language, 
-                        sign up below to indicate your subject(s) of interest and availability in a Google Form. </p>
-                        <!-- <p>If your interested, please fill out the form <span>to the right, or </span>linked 
+    <!-- Sign up/ call to action section -->
+    <div class="container-4">
+        <div class="row">
+            <a class="anchor" id="student_anchor"></a>
+            <div class="col-sm-10 scrollFade" id="student_section">
+                <h1>Students</h1>
+                <p>Welcome!
+                <p>
+                <p>If you are the parent of a elementary or middle school student (Grades K-8) in need of tutoring in
+                    Math, Science, English, Social Sciences, or Foreign Language,
+                    sign up below to indicate your subject(s) of interest and availability in a Google Form. Click the
+                    arrows to fill out the correct form.</p>
+                <!-- <p>If your interested, please fill out the form <span>to the right, or </span>linked 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf01Mby3EnUgGlzk8iLoJAtkl0L0P6rFRRggsDQjFLGw4HTQ/viewform" target="_blank">here</a>.
                         </p> -->
-                    <p>If your interested, please fill out the form <span>to the right, or </span>linked 
-                        <a href="signup.html" target="_blank">here</a>.
-                    </p>
-                </div>
-                <img class="scrollFade" src="images/arrow_3.png" alt="image of blue curved arrow" id="arrow_1">
-                <div class="col-sm-3 scrollFade" id="student_sign_up">
+                <p>If you're interested, please fill out the form <span>below, or </span>linked
+                    <a href="signup.html" target="_blank">here</a>.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="student_row">
+            <img class="scrollFade" src="images/arrow_3.png" alt="image of blue curved arrow" id="arrow_1">
+            <div class="col-sm-10 scrollFade" id="student_sign_up">
 
 
 
 
-                    <div id="student-su-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false"> <!--SOURCE: from Bootstrap source doc example-->
-                        <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdAQ7PgU2BhufkNC9gbH6U9FksDIrX8qK5KQ-sxWfXBPlAgyw/viewform?embedded=true">
-                                </iframe> 
-                            </div>
-                            <div class="carousel-item active">
-                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf01Mby3EnUgGlzk8iLoJAtkl0L0P6rFRRggsDQjFLGw4HTQ/viewform?embedded=true">
-                                </iframe> 
-                            </div>
+                <div id="student-su-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <!--SOURCE: from Bootstrap source doc example-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSdAQ7PgU2BhufkNC9gbH6U9FksDIrX8qK5KQ-sxWfXBPlAgyw/viewform?embedded=true">
+                            </iframe>
                         </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#student-su-carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#student-su-carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                      </div>
+                        <div class="carousel-item active">
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSdf01Mby3EnUgGlzk8iLoJAtkl0L0P6rFRRggsDQjFLGw4HTQ/viewform?embedded=true">
+                            </iframe>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#student-su-carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#student-su-carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
 
 
@@ -117,54 +159,60 @@
 
 
 
-                    <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf01Mby3EnUgGlzk8iLoJAtkl0L0P6rFRRggsDQjFLGw4HTQ/viewform?embedded=true">
+                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdf01Mby3EnUgGlzk8iLoJAtkl0L0P6rFRRggsDQjFLGw4HTQ/viewform?embedded=true">
                     </iframe> -->
-                </div>
-                
-            </div>
-            <div class="row">
-                <a class="anchor" id="tutor_anchor"></a>
-                <div class="col-sm-7 scrollFade" id="tutor_section">
-                    <h1>Tutors</h1>
-                    <p>Welcome!</p>
-                    <p>If you are a college student with a valid *.edu email address and would like to tutor elementary school 
-                        or middle school students in Math, Science, English, Social Sciences, or Foreign Language, 
-                        sign up below to indicate your subject(s) of interest and availability in a Google Form.</p>
-                        <p>If your interested, please fill out the form <span>to the right, or </span>linked 
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoUwM5G8QQxXtJjKpsmNHh2Br5yYjf49RKxjNwpMel--BuKw/viewform" target="_blank">here</a>.
-                        </p>
-                </div>
-                <img class="scrollFade" src="images/arrow_3.png" alt="image of blue curved arrow" id="arrow_2">
-                <div class="col-sm-3 scrollFade" id="tutor_sign_up">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoUwM5G8QQxXtJjKpsmNHh2Br5yYjf49RKxjNwpMel--BuKw/viewform?embedded=true">
-                    </iframe>
-                </div>
             </div>
         </div>
-        <div class="container-5">
-            <div class="row">
-                <div class="col-sm-4 scrollFade" id="bottom_left">
-                    <h1>Learning Lodge</h1>
-                    <p>Based in St. Louis, Missouri</p>
-                    <a href="mailto:ElementaryOnlineTutoring@gmail.com">ElementaryOnlineTutoring@gmail.com</a>
-                    <a href="mailto:MiddleSchoolOnlineTutoring@gmail.com">MiddleSchoolOnlineTutoring@gmail.com</a>
-                </div>
-                <div class="col-sm-4 scrollFade" id="bottom_mid">
-                    <!-- empty -->
-                </div>
-                <div class="col-sm-4 scrollFade" id="bottom_right">
-                    <h2>Overview</h2>
-                    <a href="about.html">About</a>
-                    <a href="mailto:ElementaryOnlineTutoring@gmail.com">Contact Us</a>
-                    <a href="news.html">In the News / Partners</a>
-                    <a href="guidelines.html">Guidelines</a>
-                    <a href="resources.html">Resources</a>
-                </div>
+        <div class="row">
+            <a class="anchor" id="tutor_anchor"></a>
+            <div class="col-sm-10 scrollFade" id="tutor_section">
+                <h1>Tutors</h1>
+                <p>Welcome!</p>
+                <p>If you are a college student with a valid *.edu email address and would like to tutor elementary
+                    school
+                    or middle school students in Math, Science, English, Social Sciences, or Foreign Language,
+                    sign up below to indicate your subject(s) of interest and availability in a Google Form.</p>
+                <p>If you're interested, please fill out the form <span>below, or </span>linked
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfoUwM5G8QQxXtJjKpsmNHh2Br5yYjf49RKxjNwpMel--BuKw/viewform"
+                        target="_blank">here</a>.
+                </p>
             </div>
-        </div>
-        
 
-        <!-- <script src="assets/js/scrollfade.js"></script> Source: https://www.cssscript.com/fade-in-out-on-scroll/ -->
-        <!-- <script src="script.js"></script> -->
-    </body>
+        </div>
+        <img class="scrollFade" src="images/arrow_3.png" alt="image of blue curved arrow" id="arrow_2">
+        <div class="row" id="tutor_row">
+            <div class="col-sm-10 scrollFade" id="tutor_sign_up">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfoUwM5G8QQxXtJjKpsmNHh2Br5yYjf49RKxjNwpMel--BuKw/viewform?embedded=true">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container-5">
+        <div class="row">
+            <div class="col-sm-4 scrollFade" id="bottom_left">
+                <h1>Learning Lodge</h1>
+                <p>Based in St. Louis, Missouri</p>
+                <a href="mailto:ElementaryOnlineTutoring@gmail.com">ElementaryOnlineTutoring@gmail.com</a>
+                <a href="mailto:MiddleSchoolOnlineTutoring@gmail.com">MiddleSchoolOnlineTutoring@gmail.com</a>
+            </div>
+            <div class="col-sm-4 scrollFade" id="bottom_mid">
+                <!-- empty -->
+            </div>
+            <div class="col-sm-4 scrollFade" id="bottom_right">
+                <h2>Overview</h2>
+                <a href="about.html">About</a>
+                <a href="mailto:ElementaryOnlineTutoring@gmail.com">Contact Us</a>
+                <a href="news.html">In the News / Partners</a>
+                <a href="guidelines.html">Guidelines</a>
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="assets/js/scrollfade.js"></script> Source: https://www.cssscript.com/fade-in-out-on-scroll/ -->
+    <!-- <script src="script.js"></script> -->
+</body>
+
 </html>

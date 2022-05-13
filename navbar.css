@@ -1,0 +1,117 @@
+#navbar-container {
+    margin-top: 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    border: none;
+    top: 0rem;
+    z-index: 9999;
+    opacity: 0.94;
+}
+
+#navigation-bar {
+    /* z-index: 1000; */
+    width: 100vw;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #1C3A52;
+    background-color:#FDFBF7;
+    margin-top: 0rem;
+    border: none;
+
+}
+
+
+
+#ll_logo {
+    font-family: 'Quicksand', sans-serif;
+    width: 10vw;
+    font-size: 200%;
+    font-weight: 500;
+    color: #1C3A52;
+    text-decoration: none;
+    margin-right: 0vw;
+    min-width: fit-content;
+    margin-top: 0rem;
+    
+}
+
+#ll_logo img {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* margin-top: 0.5rem; */
+}
+
+#ll_logo:hover {
+    color: #4795D1;
+}
+
+
+#navbarButtons .navbar-nav .nav-item a {
+    color:#1C3A52;
+    font-size: 120%;
+}
+
+#navbarButtons .navbar-nav .nav-item .nav-link:hover {
+    color:#4795D1;
+}
+
+
+
+.underline-links a {position: relative; display: inline-block;} /*Source for underline animation: https://help.semplice.com/hc/en-us/articles/360038670132-Add-an-animated-underline-hover-effect-to-text-links*/
+
+.underline-links a::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #4795D1;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links a:hover:before {right: 0 !important;}
+
+
+
+.underline-links-same a {position: relative; display: inline-block;} /*Source for underline animation: https://help.semplice.com/hc/en-us/articles/360038670132-Add-an-animated-underline-hover-effect-to-text-links*/
+
+.underline-links-same a::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #36719E;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links-same a:hover:before {right: 0 !important;}
+
+
+
+
+@media (max-width: 404px) {
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-fluid .jumbotron h1 {
+        padding-top: 10vh;
+    }
+}

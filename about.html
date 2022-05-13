@@ -1,37 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>About — Learning Lodge</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" type="text/css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css"> -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- <script src="bootstrap-5.1.3/dist/js/bootstrap.min.js"></script> -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="scrollfade/js/scrollfade-0.1.js"></script>
-        <!-- <link href="scrollfade/css/main.css" type="text/css" rel="stylesheet"> -->
-    </head>
-    <body>
-        <div class="navbar fixed-top">
-            <nav class="navbar-brand">
-                <!-- <h1 class="col-sm-1">Learning Lodge</h1> -->
-                <div class="navbar-brand btn fixed-top">
-                    <a href="index.html" id="ll_logo">
-                        <img src="images/learninglodge_logo_blue.png" class="d-inline-block align-top" alt="Learning Lodge Logo">Learning Lodge
-                    </a>
-                    <a role="button" class="btn btn-dark col-sm-1" href="index.html">Home</a> <!--Source: https://stackoverflow.com/questions/36003670/how-to-put-a-link-on-a-button-with-bootstrap-->
-                    <a role="button" class="btn btn-light col-sm-1" href="about.html">About</a>
-                    <a role="button" class="btn btn-dark col-sm-1" href="resources.html">Resources</a>
-                </div>
-            </nav>
-        </div>
-        <div class="container-fluid" id="group_founders">
-            <div class="jumbotron">
-                <h1 class="scrollFade">Group Founders</h1>
+
+<head>
+    <title>About — Learning Lodge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="navbar.css" type="text/css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <script src="bootstrap-5.1.3/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="scrollfade/js/scrollfade-0.1.js"></script>
+    <!-- <link href="scrollfade/css/main.css" type="text/css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light z-index-fixed position-fixed" id="navbar-container">
+        <div class="container-fluid" id="navigation-bar">
+            <a class="navbar-brand w-25" href="index.html" id="ll_logo">
+                <img src="images/learninglodge_logo_blue.png" class="d-inline-block align-top"
+                    alt="Learning Lodge Logo">Learning Lodge
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarButtons"
+                aria-controls="navbarButtons" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-0 w-75" id="navbarButtons">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item underline-links-same">
+                        <a class="nav-link active secondary" href="about.html" style="color: #36719E;">About</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="news.html">Partners</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="stories.html">Stories</a>
+                    </li>
+                    <li class="nav-item underline-links">
+                        <a class="nav-link active secondary" href="guidelines.html">Guidelines</a>
+                    </li>
+                </ul>
             </div>
-            <!-- Group Founders Names/Pics-->
-            <div class="row">
+        </div>
+    </nav>
+    <div class="container-fluid" id="group_founders">
+        <div class="jumbotron">
+            <h1 class="scrollFade">Group Founders</h1>
+        </div>
+        <div class="row justify-content-around">
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/alex1+square.png" class="card-img-top" alt="Picture of Alex Hu">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Alex Hu</h5>
+                    <p class="card-text" style="text-justify: inter-word">
+                        <span>Alex</span> is a recent graduate of Washington University in St. Louis ('20) majoring in Chemistry / Biochemistry. 
+                        He grew up in St. Louis, MO and his current hometown is Dayton, OH. 
+                        He has volunteered for multiple organizations such as Kindred hospice, Campus Y, St. Mary's hospital, and Heart for the Homeless. 
+                        Outside of volunteering and academics, Alex loves to build computers, scuba dive, and play tennis. 
+                        As an aspiring physician, he wishes to treat the diseases that threaten people's abilities to do what they love every day. 
+                        Alex is currently a medical student.
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/lily1+square.png" class="card-img-top" alt="Picture of Will Shangold">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Lily Xu</h5>
+                    <p class="card-text" style="text-justify: inter-word">
+                        <span>Lily</span> is a recent graduate of Washington University in St. Louis ('20) majoring in Biomedical Engineering and Biology: Genomics and Computational Biology with a minor in Computer Science. 
+                        She has volunteered for Campus Y: Science Olympiad, Campus Y: Cadence with Care, WashU Math Circle, and St. Louis Children's Hospital and has mentored students as a Teaching Assistant, Engineering Tutor, and College Applications Consultant. 
+                        Outside the classroom, she enjoys doing research, playing music, and drawing. 
+                        She is currently a graduate student at Stanford studying Biology.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Group Founders Names/Pics-->
+        <!-- <div class="row">
                 <div class="col-sm-3 scrollFade">
                     <h2>Alex Hu</h2>
                 </div>
@@ -62,47 +117,144 @@
                         She is currently a graduate student at Stanford studying Biology.
                     </p>
                 </div>
-            </div>
-            <div class="row" id="who_we_are">
-                <div class="col-sm-4 scrollFade">
-                    <h2>Who We Are</h2>
+            </div> -->
+
+        <div class="jumbotron">
+            <h1 class="scrollFade">Executive Board</h1>
+        </div>
+        <!-- Group Founders Names/Pics-->
+        <div class="row justify-content-around">
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/will.jpeg" class="card-img-top" alt="Picture of Will Shangold">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Will Shangold</h5>
+                    <p class="card-text">
+                        <span>Will</span> is a current student at Washington University in St. Louis ('24) in the
+                        College of Arts and Sciences.
+                        He grew up and currently resides in East Setauket, NY and has volunteered for various
+                        organizations, including Campus Y,
+                        the American Cancer Society-Cancer Action Network, and Earthwatch. Outside the classroom, Will
+                        enjoys playing guitar and piano, going on walks, and watching movies.
+                        He is majoring in Computer Science, with a minor in History.
+                    </p>
                 </div>
-                <div class="col-sm-8 scrollFade">
-                    <p>We are a group of college students who are offering free online tutoring sessions over video chat to elementary school and middle school students. 
-                        After seeing COVID-19 cancel schools in many locations, we want to continue supporting our communities in any way that we can.
-                    </p>
-                    <p>Learning Lodge first began as a small group within students from Washington University in St. Louis 
-                        and has expanded to include tutors from University of Minnesota, students from other colleges, and other educators.
-                    </p>
-                    <p>Our volunteers are ready to tutor in <span>Math</span>, <span>Science</span>, <span>English</span>, 
-                        <span>Social Sciences</span>, and <span>Foreign Language</span>. 
-                        We hope to do our best to help others during these uncertain times!
+            </div>
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/naomi.jpeg" class="card-img-top" alt="Picture of Naomi Jackson">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Naomi Jackson</h5>
+                    <p class="card-text">
+                        <span>Naomi</span> is a third-year student at Washington University in St. Louis ('23), majoring in Finance and Organizational & Strategic Management. 
+                        She has volunteered for Books and Basketball, Big Brothers Big Sisters, and was a service member for AmeriCorps in her hometown. 
+                        Outside of volunteering and academics, she enjoys playing basketball and golf, baking desserts, and spending time with her little sisters!
                     </p>
                 </div>
             </div>
         </div>
-        <div class="container-5">
-            <div class="row">
-                <div class="col-sm-4 scrollFade" id="bottom_left">
-                    <h1>Learning Lodge</h1>
-                    <p>Based in St. Louis, Missouri</p>
-                    <a href="mailto:ElementaryOnlineTutoring@gmail.com">ElementaryOnlineTutoring@gmail.com</a>
-                    <a href="mailto:MiddleSchoolOnlineTutoring@gmail.com">MiddleSchoolOnlineTutoring@gmail.com</a>
+
+        <div class="row justify-content-around">
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/naomi.jpeg" class="card-img-top" alt="Picture of Gabby Hyman">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Gabby Hyman</h5>
+                    <p class="card-text">
+                        Hi! I'm <span>Gabby</span> and I'm a sophomore from outside of Boston, MA. 
+                        I'm in the College of Arts and Sciences and I plan to major in Environmental Policy and History with a minor in Spanish. 
+                        Outside of class, I tutor through Learning Lodge, lead a Calculus II PLTL section, give tours, and promote sustainability on campus. 
+                        I'm excited and honored to be on the Learning Lodge Exec team and connect more tutors and students!
+                    </p>
                 </div>
-                <div class="col-sm-4 scrollFade" id="bottom_mid">
-                    <!-- empty -->
+            </div>
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/ryan.jpeg" class="card-img-top" alt="Picture of Ryan Chung">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Ryan Chung</h5>
+                    <p class="card-text">
+                        <span>Ryan</span> is an undergraduate at Washington University in St. Louis ('22) majoring in Philosophy-Neuroscience-Psychology. 
+                        He grew up in Phoenix, AZ and has volunteered for Phoenix Asylum Seekers, Project C.A.R.E, Banner University Medical Center, and continues as a volunteer for Learning Lodge.
+                        While studying as an aspiring physician, he also likes to make time for other past-times such as baking, writing, and making cartoons. 
+                    </p>
                 </div>
-                <div class="col-sm-4 scrollFade" id="bottom_right">
-                    <h2>Overview</h2>
-                    <a href="about.html">About</a>
-                    <a href="mailto:ElementaryOnlineTutoring@gmail.com">Contact Us</a>
-                    <a href="news.html">In the News / Partners</a>
-                    <a href="guidelines.html">Guidelines</a>
-                    <a href="resources.html">Resources</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/ryan.jpeg" class="card-img-top" alt="Picture of Joyce Suh">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Joyce Suh</h5>
+                    <p class="card-text">
+                        <span>Ryan</span> is an undergraduate at Washington University in St. Louis ('22) majoring in Philosophy-Neuroscience-Psychology. 
+                        He grew up in Phoenix, AZ and has volunteered for Phoenix Asylum Seekers, Project C.A.R.E, Banner University Medical Center, and continues as a volunteer for Learning Lodge.
+                        While studying as an aspiring physician, he also likes to make time for other past-times such as baking, writing, and making cartoons. 
+                    </p>
+                </div>
+            </div>
+            <div class="card" style="width: 40vw; min-width: 400px; background-color: #FDFBF7;">
+                <img src="./images/members/sana.JPG" class="card-img-top" alt="Picture of Sana Jaleel">
+                <div class="card-body scrollFade">
+                    <h5 class="card-title">Sana Jaleel</h5>
+                    <p class="card-text">
+                        <span>Sana</span> is a current sophomore at Washington University in St. Louis (’24) majoring in biology, and minoring in psychological & brain sciences, and women, gender, and sexuality studies. 
+                        She grew up in Dallas, Texas. Apart from learning lodge, she has mentored students as a PLTL leader and matched academic mentor. 
+                        Outside of academics, she enjoys running and biking, being outdoors, and spending time with friends and family. 
+                        She hopes to attend medical school and pursue research after college. 
+                    </p>
                 </div>
             </div>
         </div>
 
 
-    </body>
+
+
+
+
+
+
+        <div class="row" id="who_we_are">
+            <div class="col-sm-4 scrollFade">
+                <h2>Who We Are</h2>
+            </div>
+            <div class="col-sm-8 scrollFade">
+                <p>We are a group of college students who are offering free online tutoring sessions over video chat to
+                    elementary school and middle school students.
+                    After seeing COVID-19 cancel schools in many locations, we want to continue supporting our
+                    communities in any way that we can.
+                </p>
+                <p>Learning Lodge first began as a small group within students from Washington University in St. Louis
+                    and has expanded to include tutors from University of Minnesota, students from other colleges, and
+                    other educators.
+                </p>
+                <p>Our volunteers are ready to tutor in <span>Math</span>, <span>Science</span>, <span>English</span>,
+                    <span>Social Sciences</span>, and <span>Foreign Language</span>.
+                    We hope to do our best to help others during these uncertain times!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-5">
+        <div class="row">
+            <div class="col-sm-4 scrollFade" id="bottom_left">
+                <h1>Learning Lodge</h1>
+                <p>Based in St. Louis, Missouri</p>
+                <a href="mailto:ElementaryOnlineTutoring@gmail.com">ElementaryOnlineTutoring@gmail.com</a>
+                <a href="mailto:MiddleSchoolOnlineTutoring@gmail.com">MiddleSchoolOnlineTutoring@gmail.com</a>
+            </div>
+            <div class="col-sm-4 scrollFade" id="bottom_mid">
+                <!-- empty -->
+            </div>
+            <div class="col-sm-4 scrollFade" id="bottom_right">
+                <h2>Overview</h2>
+                <a href="about.html">About</a>
+                <a href="mailto:ElementaryOnlineTutoring@gmail.com">Contact Us</a>
+                <a href="news.html">In the News / Partners</a>
+                <a href="guidelines.html">Guidelines</a>
+                <a href="resources.html">Resources</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
 </html>
