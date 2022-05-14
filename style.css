@@ -945,6 +945,10 @@ div.dropdown ul li {
     color:#36719E;
 }
 
+#group_founders .card-subtitle {
+    color:#36719E;
+}
+
 
 /* #group_founders .row img {
     width: 100%;
@@ -1301,12 +1305,12 @@ div.dropdown ul li {
     margin-right: auto;
 }
 
-#news_list h1 + h2 + h3 {
+#news_list h2 + h3 {
     color:#36719E;
     padding-bottom: 3rem;
-    /* margin-bottom: 3rem; */
-    font-size: 1.5vw;
-    width: 80vw;
+    font-size: 1.0vw;
+    /* width: 80vw; */
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1354,7 +1358,6 @@ div.dropdown ul li {
 /* The Record */
 
 #the_record {
-    /* background-color: #4795D1; */
     width: 100vw;
     
     
@@ -1362,7 +1365,6 @@ div.dropdown ul li {
 }
 
 #the_record .col-sm-6 {
-    /* background-color: #4795D1; */
     overflow: visible;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1379,7 +1381,6 @@ div.dropdown ul li {
     font-size: 4.5vw;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
@@ -1392,7 +1393,6 @@ div.dropdown ul li {
     margin-bottom: 3rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 #the_record .col-sm-4 h3 {
@@ -1403,7 +1403,6 @@ div.dropdown ul li {
     margin-bottom: 3rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 #the_record .col-sm-4 a {
@@ -1417,7 +1416,6 @@ div.dropdown ul li {
     color:#FDFBF7;
     border: none;
     box-shadow: 0.3rem 0.3rem #344552;
-    /* border: 1px solid red; */
 }
 
 #the_record .col-sm-4 a:hover {
@@ -1426,10 +1424,6 @@ div.dropdown ul li {
 }
 
 #the_record img {
-    /* height: 30vw; */
-    /* height: 30rem; */
-    /* height: 50vh;
-    width:max-content; */
     height: inherit;
     width:32vw;
     margin-top: 3rem;
@@ -1467,7 +1461,6 @@ div.dropdown ul li {
     font-size: 4.5vw;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 1rem;
     margin-bottom: 3rem;
     background-color: #4795D1;
@@ -1482,7 +1475,6 @@ div.dropdown ul li {
     width: 100%;
     text-align: center;
     background-color: #4795D1;
-    /* border: 1px solid red; */
 }
 
 #kmov_news .col-sm-4 h3 {
@@ -1497,11 +1489,6 @@ div.dropdown ul li {
 }
 
 #kmov_news iframe {
-    /* height: 30vw; */
-    /* height: 30rem; */
-/*     
-    width:50vw;
-    height: 50vh; */
     height: inherit;
     min-height: 50vh;
     width:inherit;
@@ -1519,13 +1506,11 @@ div.dropdown ul li {
 /* Learn To Be */
 
 #ltb {
-    /* background-color: #4795D1; */
     width: 100vw;
 
 }
 
 #ltb .col-sm-6 {
-    /* background-color: #4795D1; */
     overflow: visible;
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -1542,7 +1527,6 @@ div.dropdown ul li {
     font-size: 4.5vw;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
@@ -1555,7 +1539,6 @@ div.dropdown ul li {
     margin-bottom: 3rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 
@@ -1570,7 +1553,6 @@ div.dropdown ul li {
     color:#FDFBF7;
     border: none;
     box-shadow: 0.3rem 0.3rem #344552;
-    /* border: 1px solid red; */
 }
 
 #ltb .col-sm-4 a:hover {
@@ -1579,8 +1561,6 @@ div.dropdown ul li {
 }
 
 #ltb img {
-    /* height: 20vw; */
-    /* height: 25rem; */
     height: inherit;
     width:30vw;
     margin-top: 3rem;
@@ -1618,7 +1598,6 @@ div.dropdown ul li {
     font-size: 4.5vw;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 5rem;
     margin-bottom: 3rem;
     background-color: #4795D1;
@@ -1633,7 +1612,6 @@ div.dropdown ul li {
     width: 100%;
     text-align: center;
     background-color: #4795D1;
-    /* border: 1px solid red; */
 }
 
 #stfl .col-sm-4 h3 {
@@ -1644,7 +1622,6 @@ div.dropdown ul li {
     margin-bottom: 3rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 #stfl .col-sm-4 a {
@@ -1657,7 +1634,6 @@ div.dropdown ul li {
     color:#344552;
     border: none;
     box-shadow: 0.3rem 0.3rem #36719E;
-    /* border: 1px solid red; */
 }
 
 #stfl .col-sm-4 a:hover {
@@ -1667,9 +1643,6 @@ div.dropdown ul li {
 }
 
 #stfl img {
-    /* height: 25vw; */
-    /* height: 25rem;
-    width:37vw; */
     height: inherit;
     width:37vw;
     margin-top: 3rem;
@@ -1684,13 +1657,11 @@ div.dropdown ul li {
 /* Kids Vision For Life */
 
 #kvl {
-    /* background-color: #4795D1; */
     width: 100vw;
 
 }
 
 #kvl .col-sm-6 {
-    /* background-color: #4795D1; */
     overflow: visible;
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -1707,7 +1678,6 @@ div.dropdown ul li {
     font-size: 4.5vw;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 5rem;
     margin-bottom: 3rem;
 }
@@ -1720,7 +1690,6 @@ div.dropdown ul li {
     margin-bottom: 3rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 
@@ -1735,7 +1704,6 @@ div.dropdown ul li {
     color:#FDFBF7;
     border: none;
     box-shadow: 0.3rem 0.3rem #344552;
-    /* border: 1px solid red; */
 }
 
 #kvl .col-sm-4 a:hover {
@@ -1744,9 +1712,6 @@ div.dropdown ul li {
 }
 
 #kvl img {
-    /* height: 32vw; */
-    /* height: 32rem;
-    width:max-content; */
     height: inherit;
     width:28vw;
     margin-top: 3rem;
