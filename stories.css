@@ -1,6 +1,7 @@
 
 #stories-title {
  padding-bottom: 14vh;
+ font-size: 4vmax;
 }
 
 #stories-title span {
@@ -10,7 +11,8 @@
 #stories-text {
     /* border: 1px solid red; */
     min-width: 350px;
-    font-size: 200%;
+    /* font-size: 200%; */
+    font-size: 2vmax;
 }
 
 #stories-carousel .carousel-inner{
