@@ -574,7 +574,7 @@ div.dropdown ul li {
 
 .container-4 .col-sm-10 > h1 {
     margin-top: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom:2.5rem;
@@ -925,7 +925,9 @@ div.dropdown ul li {
     /* margin-top: 10rem; */
     padding-top: 10rem;
     padding-bottom: 7rem;
-    font-size: 600%;
+    /* font-size: 600%; */
+    font-size: 4vmax;
+    font-weight: 400;
     text-align: center;
     width: 100%;
 
@@ -1028,8 +1030,8 @@ div.dropdown ul li {
     /* font-size: 180%; */
     font-size: 2vw;
     padding-top: 2rem;
-    padding-right: 4rem;
-    padding-left: 1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 #group_founders #who_we_are p span {
@@ -1071,7 +1073,9 @@ div.dropdown ul li {
     font-family: 'Quicksand', sans-serif;
     background-color: #FDFBF7;
     padding-top: 10rem;
-    font-size: 6vw;
+    /* font-size: 6vw; */
+    font-size: 4vmax;
+    font-weight: 400;
     text-align: center;
     width: 100%;
 
@@ -1181,8 +1185,10 @@ div.dropdown ul li {
 }
 
 #guidelines_list h1 {
-    margin-bottom: 4.5rem;
-    font-size: 6vw;
+    margin-bottom: 2rem;
+    /* font-size: 6vw; */
+    font-size: 4vmax;
+    font-weight: 400;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -1190,8 +1196,9 @@ div.dropdown ul li {
 
 #guidelines_list h1 + h2 {
     color:#36719E;
-    margin-bottom: 3rem;
-    font-size: 3vw;
+    margin-bottom: 4rem;
+    /* font-size: 3vw; */
+    font-size: 2vmax;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -1200,7 +1207,8 @@ div.dropdown ul li {
 #guidelines_list h2 + p {
     text-align: left;
     margin-left: 6%;
-    font-size: 2vw;
+    /* font-size: 2vw; */
+    font-size: 1vmax;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -1208,8 +1216,9 @@ div.dropdown ul li {
 
 #guidelines_list h3 {
     /* font-size: 35px; */
-    font-size: 3vw;
-    font-weight: bold;
+    font-size: 2vmax;
+    font-weight: 400;
+    /* color:#36719E; */
 }
 
 #guidelines_list ol {
@@ -1222,19 +1231,21 @@ div.dropdown ul li {
 
 #guidelines_list ol li {
     /* font-size:35px; */
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    font-size: 1vmax;
     padding-right: 3rem;
 }
 
 #guidelines_list h4 {
     /* font-size:25px; */
-    font-size: 2vw;
-    font-weight: bold;
+    font-size: 1.7vmax;
+    font-weight: 400;
+    color:#36719E;
 }
 
 #guidelines_list p {
     /* font-size:20px; */
-    font-size: 1.2vw;
+    /* font-size: 1.2vw; */
     font-family: 'Bitter', serif;
 }
 

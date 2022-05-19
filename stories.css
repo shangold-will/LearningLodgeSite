@@ -2,11 +2,13 @@
 #stories-title {
  padding-bottom: 14vh;
  font-size: 4vmax;
+ font-weight: 400;
+ color: #1C3A52;
 }
 
-#stories-title span {
+/* #stories-title span {
     color:#4795D1;
-}
+} */
 
 #stories-text {
     /* border: 1px solid red; */
